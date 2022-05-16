@@ -11,3 +11,8 @@ file_to_search =  pd.read_csv(file_to_search_name)
 print(file_main)
 print("#" * 100)
 print(file_to_search)
+
+for each_isin in file_main['ISIN'] :
+    df_to_check = file_to_search[]
+    print(each_isin)
+    print("======")
